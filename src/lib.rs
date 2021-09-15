@@ -23,7 +23,8 @@ impl App {
 
         let info = vec![
             "Welcome!",
-            "Rust WASM Demo"
+            "Rust WASM Demo",
+            "List"
         ];
 
         let button_text = "Check the console";
@@ -45,6 +46,7 @@ impl App {
               <div class="list">
                 <ul>
                   <li>{ component }</li>
+                  <li>{ info[2] }</li>
                 </ul>
               </div>
             </div>
